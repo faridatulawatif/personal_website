@@ -1,0 +1,54 @@
+body {
+  background-color: yellow;
+  color: brown;
+}
+
+h1 {
+  background-color: gold;
+  color: red;
+font-family: 'Tangerine', serif;
+font-size: 60px;
+border: ridge;
+border-style: dotted;
+border-radius: 50px;
+}
+
+h3 {
+  background-colour: yellow;
+  colour: green;
+font-family: "sofia", sans-serif;
+font-size:30px;
+text-allign: center;
+border: ridge;
+border-style: solid;
+border-radius: 45px;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color:lime;
+}
+
+
+
+<div class="w3-container">
+  <h2>Bordered Image</h2>
+  <p>The w3-border class adds borders around the image.</p>
+  <p>Padding added wil be inside the borders:</p>
+  <img src="me.JPG" class="w3-border" alt="Norway" style="padding:4px;width:50%">
+
+  <p>More padding:</p>
+  <img src="me.JPG" class="w3-border" alt="Norway" style="padding:16px;width:50%">
+</div>
+
+</body>
+</html>
+
